@@ -12,3 +12,7 @@ ANSI CODE|COLOR|CODE EXAMPLE
 `\033[35m`|Purple|**System.out.println("\033[35m [PURPLE]");**
 `\033[36m`|Light Blue|**System.out.println("\033[36m [LIGHT BLUE]");**
 `\033[37m`|White|**System.out.println("\033[37m [WHITE]");**
+
+\033[32m Teste
+
+<img src="Images/ANSI-test.png">
