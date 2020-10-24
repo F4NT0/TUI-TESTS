@@ -13,13 +13,11 @@ ANSI CODE|COLOR|CODE EXAMPLE
 `\033[36m`|Light Blue|**System.out.println("\033[36m [LIGHT BLUE]");**
 `\033[37m`|White|**System.out.println("\033[37m [WHITE]");**
 
-\033[32m Teste
-
 <img src="Images/ANSI-test.png">
 
 ### DIFFS Colors
 
-* Used in Markdown
+* Used in Markdown, put the symbol before write something
 
 ```diff
 - Red text
@@ -28,3 +26,31 @@ ANSI CODE|COLOR|CODE EXAMPLE
 # Text in gray
 @@ Text in Purple and Bold @@
 ```
+
+### Colors in Javascript using Node.js
+
+* When using Node.js, you can install the Module **cli-colors**
+* Inside the Node.js project, write on Terminal:
+
+```shell
+> npm install cli-color
+```
+* Call the Module on your .js file:
+
+```javascript
+var colors = require("cli-color");
+```
+* Examples:
+
+```javascript
+var color = require('cli-color');
+
+console.log(color.green("[GREEN]"));
+console.log(color.red("[RED]"))
+console.log(color.blue("[BLUE]"));
+console.log(color.yellow("[YELLOW]"));
+console.log(color.cyan("[CYAN]"));
+console.log(color.magenta("[MAGENTA]"));
+console.log(color.white("[WHITE]"));
+```
+
