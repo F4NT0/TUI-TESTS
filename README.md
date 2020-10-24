@@ -16,3 +16,15 @@ ANSI CODE|COLOR|CODE EXAMPLE
 \033[32m Teste
 
 <img src="Images/ANSI-test.png">
+
+### DIFFS Colors
+
+* Used in Markdown
+
+```diff
+- Red text
++ Green Text
+! text in orange
+# Text in gray
+@@ Text in Purple and Bold @@
+```
