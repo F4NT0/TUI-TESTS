@@ -53,4 +53,55 @@ console.log(color.cyan("[CYAN]"));
 console.log(color.magenta("[MAGENTA]"));
 console.log(color.white("[WHITE]"));
 ```
+<img src="Images/cli-color.png">
+
+### Colors in Python (colorama)
+
+* Install Colorama package = `pip3 install colorama`
+* Import Colorama Foreground and Style: 
+
+```python
+from colorama import Fore,Style
+```
+
+* Call the Colors like the Examples Below
+
+```python
+print(Fore.GREEN + '[GREEN]')
+print(Fore.RED + '[RED]')
+print(Fore.BLUE + '[BLUE]')
+print(Fore.YELLOW + '[YELLOW]')
+print(Fore.CYAN + '[CYAN]')
+print(Fore.WHITE + '[WHITE]')
+print(Style.RESET_ALL) # Reset the previous color
+```
+
+<img src="Images/colorama.png">
+
+
+## TUI TITLES
+
+* Titles using the Following unicode commands:
+
+Example|Insert on VIM|Insert on VSCODE|Code
+|---|---|---|---|
+`┌` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>|250C
+`┐` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>|2510
+`└` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| 2514
+`┘` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| 2518
+`─` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| 2500
+`|` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| <kbd>|</kbd>
+
+* Simple example:
+
+```text
+┌───────────────────────────────────────────┐
+| THIS IS THE TITLE FROM SOME INFORMATION   |
+└───────────────────────────────────────────┘
+```
+
+* Using Colors: 
+
+<img src="Images/tables-colored.png">
+
 
