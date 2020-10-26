@@ -90,7 +90,7 @@ Example|Insert on VIM|Insert on VSCODE|Code
 `└` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| 2514
 `┘` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| 2518
 `─` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| 2500
-`|` | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| <kbd>|</kbd>
+**|** | <kbd>Ctrl</kbd> + <kbd>v</kbd> + <kbd>u</kbd>|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>u</kbd>| <kbd>**|**</kbd>
 
 * Simple example:
 
